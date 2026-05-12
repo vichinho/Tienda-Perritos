@@ -73,7 +73,7 @@ function renderProductos(productos) {
   document.querySelectorAll(".btn-eliminar").forEach((btn) => {
     btn.addEventListener("click", () => {
       const id = btn.getAttribute("data-id");
-      if (confirm("¿Seguro que deseas elimiinar este producto?")) {
+      if (confirm("¿Seguro que deseas eliminar este producto?")) {
         eliminarProducto(id);
       }
     });

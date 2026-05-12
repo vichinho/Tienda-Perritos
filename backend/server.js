@@ -63,7 +63,7 @@ app.get("/api/productos/:id", async (req, res) => {
     }
     res.json(rows[0]);
   } catch (err) {
-    handleError(res, err, "No se pudo obtener el producto.");
+    handleError(res, err, "No se pudo obtener el producto");
   }
 });
 
