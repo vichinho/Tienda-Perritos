@@ -53,7 +53,7 @@ app.get("/api/productos", async (req, res) => {
   }
 });
 
-// Obtener un producto por ID
+// Obtener un productoo por ID
 app.get("/api/productos/:id", async (req, res) => {
   const { id } = req.params;
   try {
